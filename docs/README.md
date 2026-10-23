@@ -1,16 +1,20 @@
 # OctoAcme Project Management Docs
 
-This folder contains the project management guidance used by OctoAcme to run cross-functional work from idea to release. The process is designed to keep teams aligned on outcomes, responsibilities, quality, and communication while staying lightweight and repeatable.
+This folder contains the core project management guidance used by OctoAcme to run cross-functional work from idea to release. The process is designed to keep teams aligned on outcomes, clarify ownership, and create a steady operating rhythm across initiation, planning, execution, release, and improvement.
 
 ## Project management process overview
 
-OctoAcme follows a practical lifecycle that begins with initiation and ends with retrospective and improvement. During initiation, the team confirms the business need, identifies stakeholders, defines success metrics, and decides whether the effort should move into planning. Planning turns the approved initiative into a concrete backlog, timeline, risks, and acceptance criteria. Execution then focuses on delivery rhythm: standups, weekly syncs, backlog tracking, review gates, and blocker management. Release and deployment ensure that changes are validated, communicated, and rolled out with appropriate checks. Finally, retrospectives capture lessons learned and convert them into action items that improve future delivery.
+OctoAcme uses a practical, lightweight lifecycle for project delivery:
 
-## Key workflows, roles, and practices
+- Initiation: confirm the business need, identify stakeholders, define success criteria, and decide whether to move forward.
+- Planning: translate the initiative into a prioritized backlog, milestone plan, release timeline, and risk log.
+- Execution: run standups, track progress, manage dependencies and blockers, and keep the team aligned through regular reviews.
+- Release & Deployment: validate readiness, deploy with checks, and communicate outcomes to stakeholders.
+- Retrospective & Improvement: capture what went well, what needs adjustment, and what actions should be tracked for the next cycle.
 
-The documentation emphasizes clear ownership and direct accountability across roles. Product Managers define outcomes and prioritize work, Project Managers coordinate scope, scheduling, risks, and communication, Developers build and test features, QA validates quality and acceptance criteria, and stakeholders provide input and approvals. The team also uses a structured delivery cadence with daily standups, weekly delivery reviews, demos, and escalation paths for dependencies or business-impacting issues.
+The operating model emphasizes clear roles and shared accountability. Product and project leads define outcomes and priorities, delivery teams turn work into actionable backlog items, and stakeholders provide approvals, input, and feedback. These responsibilities are supported by regular communication cadences such as daily standups, weekly status updates, sprint or milestone reviews, and escalation paths for business-critical issues.
 
-Quality is treated as a shared responsibility throughout the lifecycle. New work should include unit tests, integration tests when needed, smoke tests for critical user flows, CI checks, security scanning, and manual QA for acceptance validation. Pull requests are expected to remain small, include issue links and acceptance criteria, and require review before merge. Release readiness is confirmed with deployment checklists, smoke tests, rollback planning, and clear stakeholder communication.
+Quality is treated as a shared responsibility throughout the lifecycle. The docs emphasize clean PRs, issue-linked work, acceptance criteria, CI validation, security scanning, unit and integration testing, end-to-end smoke testing for critical flows, and post-deployment verification. Retrospectives help the team capture lessons learned and convert them into action items that improve future delivery.
 
 ## Documentation index
 
